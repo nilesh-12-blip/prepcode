@@ -1,0 +1,27 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="70" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">Collections Framework</text>
+  <g>
+    <rect x="88" y="146" width="220" height="250" rx="28" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="126" y="198" fill="#6AE5FF" font-size="20" font-family="IBM Plex Sans, sans-serif">List</text>
+    <text x="126" y="236" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Order + Duplicates</text>
+    <text x="126" y="286" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">ArrayList</text>
+    <text x="126" y="316" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">LinkedList</text>
+  </g>
+  <g>
+    <rect x="340" y="146" width="220" height="250" rx="28" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="378" y="198" fill="#6AE5FF" font-size="20" font-family="IBM Plex Sans, sans-serif">Set</text>
+    <text x="378" y="236" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Uniqueness</text>
+    <text x="378" y="286" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">HashSet</text>
+    <text x="378" y="316" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">LinkedHashSet</text>
+    <text x="378" y="346" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">TreeSet</text>
+  </g>
+  <g>
+    <rect x="592" y="146" width="220" height="250" rx="28" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="630" y="198" fill="#8D6BFF" font-size="20" font-family="IBM Plex Sans, sans-serif">Map</text>
+    <text x="630" y="236" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Key -> Value</text>
+    <text x="630" y="286" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">HashMap</text>
+    <text x="630" y="316" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">LinkedHashMap</text>
+    <text x="630" y="346" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">TreeMap</text>
+  </g>
+</svg>

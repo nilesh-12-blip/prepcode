@@ -1,0 +1,18 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="70" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">String Toolkit</text>
+  <g transform="translate(86 160)">
+    <rect width="88" height="88" rx="20" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><text x="44" y="55" text-anchor="middle" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">c</text>
+    <rect x="98" width="88" height="88" rx="20" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><text x="142" y="55" text-anchor="middle" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">o</text>
+    <rect x="196" width="88" height="88" rx="20" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><text x="240" y="55" text-anchor="middle" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">d</text>
+    <rect x="294" width="88" height="88" rx="20" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><text x="338" y="55" text-anchor="middle" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">e</text>
+  </g>
+  <rect x="560" y="146" width="250" height="190" rx="28" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+  <text x="594" y="190" fill="#8D6BFF" font-size="18" font-family="IBM Plex Sans, sans-serif">Frequency Map</text>
+  <text x="594" y="238" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">c:1  o:1</text>
+  <text x="594" y="278" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">d:1  e:1</text>
+  <rect x="124" y="388" width="460" height="28" rx="14" fill="#14284E"/>
+  <rect x="224" y="388" width="220" height="28" rx="14" fill="url(#string-window)"/>
+  <defs><linearGradient id="string-window" x1="224" y1="402" x2="444" y2="402" gradientUnits="userSpaceOnUse"><stop stop-color="#6AE5FF"/><stop offset="1" stop-color="#8D6BFF"/></linearGradient></defs>
+  <text x="124" y="450" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Character traversal + counting + two pointers + sliding window</text>
+</svg>

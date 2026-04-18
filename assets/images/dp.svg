@@ -1,0 +1,15 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="72" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">Dynamic Programming</text>
+  <g transform="translate(108 150)">
+    <rect width="110" height="86" rx="20" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><text x="55" y="50" text-anchor="middle" fill="#F5F7FF" font-size="22" font-family="Space Grotesk, sans-serif">dp[0]</text>
+    <rect x="134" width="110" height="86" rx="20" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><text x="189" y="50" text-anchor="middle" fill="#F5F7FF" font-size="22" font-family="Space Grotesk, sans-serif">dp[1]</text>
+    <rect x="268" width="110" height="86" rx="20" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><text x="323" y="50" text-anchor="middle" fill="#F5F7FF" font-size="22" font-family="Space Grotesk, sans-serif">dp[2]</text>
+    <rect x="402" width="110" height="86" rx="20" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><text x="457" y="50" text-anchor="middle" fill="#F5F7FF" font-size="22" font-family="Space Grotesk, sans-serif">dp[3]</text>
+    <rect x="536" width="110" height="86" rx="20" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><text x="591" y="50" text-anchor="middle" fill="#F5F7FF" font-size="22" font-family="Space Grotesk, sans-serif">dp[n]</text>
+    <path d="M214 126L322 86L456 86L590 86" stroke="#6AE5FF" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 8"/>
+    <path d="M152 240L152 316H590" stroke="#1E345A" stroke-width="4" stroke-linecap="round"/>
+    <text x="590" y="340" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">state -> transition -> table fill</text>
+  </g>
+  <text x="60" y="474" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Define state clearly, write transition, add base cases, then optimize space if needed.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="72" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">Stack and Queue</text>
+  <text x="100" y="130" fill="#6AE5FF" font-size="18" font-family="IBM Plex Sans, sans-serif">LIFO</text>
+  <text x="610" y="130" fill="#8D6BFF" font-size="18" font-family="IBM Plex Sans, sans-serif">FIFO</text>
+  <g transform="translate(96 180)">
+    <rect x="0" y="180" width="160" height="56" rx="18" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><rect x="0" y="116" width="160" height="56" rx="18" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/><rect x="0" y="52" width="160" height="56" rx="18" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="80" y="215" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">pop</text>
+    <text x="80" y="151" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">middle</text>
+    <text x="80" y="87" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">top</text>
+  </g>
+  <g transform="translate(470 220)">
+    <rect width="96" height="96" rx="22" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><rect x="110" width="96" height="96" rx="22" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/><rect x="220" width="96" height="96" rx="22" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="48" y="58" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">front</text>
+    <text x="158" y="58" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">mid</text>
+    <text x="268" y="58" text-anchor="middle" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">rear</text>
+  </g>
+  <text x="60" y="476" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Stacks solve nesting and next greater queries. Queues power BFS and streaming order.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="74" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">Pattern Thinking</text>
+  <text x="60" y="104" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Every pattern becomes row logic + column logic + output rule</text>
+  <g stroke="#20355B" stroke-width="2">
+    <path d="M110 150V440"/><path d="M110 440H390"/><path d="M510 150V440"/><path d="M510 440H790"/>
+  </g>
+  <g font-family="IBM Plex Sans, sans-serif" fill="#A7B7D9" font-size="14">
+    <text x="50" y="170">rows</text><text x="352" y="470">cols</text><text x="450" y="170">rows</text><text x="752" y="470">cols</text>
+  </g>
+  <g fill="#6AE5FF">
+    <circle cx="150" cy="398" r="10"/><circle cx="190" cy="398" r="10"/><circle cx="230" cy="398" r="10"/><circle cx="270" cy="398" r="10"/>
+    <circle cx="150" cy="358" r="10"/><circle cx="190" cy="358" r="10"/><circle cx="230" cy="358" r="10"/>
+    <circle cx="150" cy="318" r="10"/><circle cx="190" cy="318" r="10"/>
+    <circle cx="150" cy="278" r="10"/>
+  </g>
+  <g fill="#8D6BFF">
+    <circle cx="650" cy="398" r="10"/><circle cx="630" cy="358" r="10"/><circle cx="650" cy="358" r="10"/><circle cx="670" cy="358" r="10"/>
+    <circle cx="610" cy="318" r="10"/><circle cx="630" cy="318" r="10"/><circle cx="650" cy="318" r="10"/><circle cx="670" cy="318" r="10"/><circle cx="690" cy="318" r="10"/>
+    <circle cx="590" cy="278" r="10"/><circle cx="610" cy="278" r="10"/><circle cx="630" cy="278" r="10"/><circle cx="650" cy="278" r="10"/><circle cx="670" cy="278" r="10"/><circle cx="690" cy="278" r="10"/><circle cx="710" cy="278" r="10"/>
+  </g>
+  <text x="150" y="198" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">Triangle</text>
+  <text x="622" y="198" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">Pyramid</text>
+</svg>

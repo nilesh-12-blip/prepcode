@@ -1,0 +1,33 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <text x="60" y="72" fill="#F5F7FF" font-size="32" font-family="Space Grotesk, sans-serif">Math Toolkit for DSA</text>
+  <text x="60" y="102" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Optimization comes from properties, not from memorizing formulas blindly</text>
+  <g>
+    <rect x="74" y="148" width="180" height="120" rx="24" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="104" y="196" fill="#6AE5FF" font-size="18" font-family="IBM Plex Sans, sans-serif">Prime</text>
+    <text x="104" y="232" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">sqrt(n)</text>
+  </g>
+  <g>
+    <rect x="284" y="148" width="180" height="120" rx="24" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="314" y="196" fill="#6AE5FF" font-size="18" font-family="IBM Plex Sans, sans-serif">GCD</text>
+    <text x="314" y="232" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Euclid</text>
+  </g>
+  <g>
+    <rect x="494" y="148" width="180" height="120" rx="24" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="524" y="196" fill="#8D6BFF" font-size="18" font-family="IBM Plex Sans, sans-serif">Modulo</text>
+    <text x="524" y="232" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">safe math</text>
+  </g>
+  <g>
+    <rect x="704" y="148" width="120" height="120" rx="24" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="734" y="196" fill="#8D6BFF" font-size="18" font-family="IBM Plex Sans, sans-serif">Bits</text>
+    <text x="734" y="232" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">&amp;</text>
+  </g>
+  <path d="M164 332H738" stroke="url(#math-line)" stroke-width="4" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="math-line" x1="164" y1="332" x2="738" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6AE5FF"/><stop offset="1" stop-color="#8D6BFF"/>
+    </linearGradient>
+  </defs>
+  <text x="182" y="392" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Use properties to reduce brute force and protect from overflow</text>
+  <text x="182" y="430" fill="#F5F7FF" font-size="24" font-family="Space Grotesk, sans-serif">Prime -> GCD/LCM -> Mod -> Bits</text>
+</svg>

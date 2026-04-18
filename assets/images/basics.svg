@@ -1,0 +1,17 @@
+<svg width="900" height="540" viewBox="0 0 900 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="540" rx="36" fill="#081224"/>
+  <circle cx="450" cy="270" r="104" fill="#10254D" stroke="#6AE5FF" stroke-opacity=".35" stroke-width="2"/>
+  <text x="450" y="252" text-anchor="middle" fill="#6AE5FF" font-size="18" font-family="IBM Plex Sans, sans-serif">CORE FLOW</text>
+  <text x="450" y="292" text-anchor="middle" fill="#F5F7FF" font-size="34" font-family="Space Grotesk, sans-serif">Programming</text>
+  <text x="450" y="326" text-anchor="middle" fill="#F5F7FF" font-size="34" font-family="Space Grotesk, sans-serif">Basics</text>
+  <g stroke="#8D6BFF" stroke-width="3" stroke-linecap="round">
+    <path d="M450 166V88"/><path d="M554 270H674"/><path d="M450 374V452"/><path d="M346 270H226"/>
+  </g>
+  <g font-family="Space Grotesk, sans-serif" fill="#F5F7FF">
+    <rect x="334" y="44" width="232" height="70" rx="20" fill="#11234A"/><text x="450" y="88" text-anchor="middle" font-size="24">Variables</text>
+    <rect x="674" y="236" width="170" height="70" rx="20" fill="#11234A"/><text x="759" y="280" text-anchor="middle" font-size="24">Loops</text>
+    <rect x="334" y="428" width="232" height="70" rx="20" fill="#11234A"/><text x="450" y="472" text-anchor="middle" font-size="24">Functions</text>
+    <rect x="56" y="236" width="170" height="70" rx="20" fill="#11234A"/><text x="141" y="280" text-anchor="middle" font-size="24">Branches</text>
+  </g>
+  <text x="52" y="68" fill="#A7B7D9" font-size="16" font-family="IBM Plex Sans, sans-serif">Variables -> Operators -> Conditions -> Loops -> Functions</text>
+</svg>

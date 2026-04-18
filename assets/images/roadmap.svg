@@ -1,0 +1,54 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-roadmap" x1="80" y1="40" x2="860" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1B3F"/>
+      <stop offset="1" stop-color="#081224"/>
+    </linearGradient>
+    <linearGradient id="line-roadmap" x1="120" y1="100" x2="760" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6AE5FF"/>
+      <stop offset="1" stop-color="#8D6BFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="560" rx="40" fill="url(#bg-roadmap)"/>
+  <path d="M162 148H796V410H162" stroke="url(#line-roadmap)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <g font-family="Space Grotesk, sans-serif" fill="#F5F7FF">
+    <text x="60" y="72" font-size="30" font-weight="700">Placement Roadmap</text>
+    <text x="60" y="104" font-size="15" fill="#A7B7D9">Study flow for service-based and product-based interviews</text>
+  </g>
+  <g>
+    <rect x="80" y="126" width="240" height="90" rx="24" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="110" y="162" fill="#6AE5FF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 1</text>
+    <text x="110" y="192" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Basics</text>
+    <text x="110" y="214" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">Variables, loops, functions</text>
+  </g>
+  <g>
+    <rect x="350" y="126" width="240" height="90" rx="24" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="380" y="162" fill="#6AE5FF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 2</text>
+    <text x="380" y="192" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Patterns + Math</text>
+    <text x="380" y="214" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">Nested loops, prime, gcd</text>
+  </g>
+  <g>
+    <rect x="620" y="126" width="260" height="90" rx="24" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="650" y="162" fill="#8D6BFF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 3</text>
+    <text x="650" y="192" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Java Core</text>
+    <text x="650" y="214" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">OOP, Collections</text>
+  </g>
+  <g>
+    <rect x="80" y="320" width="240" height="90" rx="24" fill="#11234A" stroke="#6AE5FF" stroke-opacity=".35"/>
+    <text x="110" y="356" fill="#6AE5FF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 4</text>
+    <text x="110" y="386" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">DSA Core</text>
+    <text x="110" y="408" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">Arrays, strings, lists, trees</text>
+  </g>
+  <g>
+    <rect x="350" y="320" width="240" height="90" rx="24" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="380" y="356" fill="#8D6BFF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 5</text>
+    <text x="380" y="386" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Recursion + DP</text>
+    <text x="380" y="408" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">State, transitions, depth</text>
+  </g>
+  <g>
+    <rect x="620" y="320" width="260" height="90" rx="24" fill="#11234A" stroke="#8D6BFF" stroke-opacity=".4"/>
+    <text x="650" y="356" fill="#8D6BFF" font-size="14" font-family="IBM Plex Sans, sans-serif">PHASE 6</text>
+    <text x="650" y="386" fill="#F5F7FF" font-size="28" font-family="Space Grotesk, sans-serif">Interview Finish</text>
+    <text x="650" y="408" fill="#A7B7D9" font-size="14" font-family="IBM Plex Sans, sans-serif">Company prep, MCQs, HR</text>
+  </g>
+</svg>

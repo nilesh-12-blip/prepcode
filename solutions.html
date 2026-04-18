@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solutions | CodeCrack Elite</title>
+  <meta name="description" content="Deep-dive solution studio with bookmarks, progress tracking, and interview notes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="solutions">
+  <div class="site-backdrop" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-glow"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="CodeCrack Elite home">
+      <span class="brand-mark">CE</span>
+      <span>
+        <strong>CodeCrack Elite</strong>
+        <small>Placement Prep Command Center</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primaryNav" class="primary-nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="topics.html" data-nav="topics">Topics</a>
+      <a href="questions.html" data-nav="questions">Questions</a>
+      <a href="solutions.html" data-nav="solutions">Solutions</a>
+      <a href="quiz.html" data-nav="quiz">Quiz</a>
+    </nav>
+    <div class="topbar-actions">
+      <form class="site-search" data-global-search>
+        <input type="search" name="search" placeholder="Jump to any question" aria-label="Search questions">
+        <button type="submit">Search</button>
+      </form>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-dot"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero section-shell">
+      <div class="section-head reveal">
+        <span class="eyebrow">Solution Studio</span>
+        <h1>Focus on bookmarked and high-yield problems.</h1>
+        <p>Select any question to see the full explanation, clean Java code, and study actions in one distraction-free view.</p>
+      </div>
+      <div id="solutionSummary" class="hero-metrics"></div>
+    </section>
+
+    <section class="section-shell solution-layout">
+      <aside class="glass-card reveal sidebar-panel">
+        <div class="panel-heading">
+          <strong>Saved Questions</strong>
+          <span class="pill">Bookmark + progress aware</span>
+        </div>
+        <label>
+          <span>Filter list</span>
+          <input id="solutionSearch" type="search" placeholder="Search saved or all questions">
+        </label>
+        <div id="solutionList" class="solution-list"></div>
+      </aside>
+
+      <section id="solutionDetail" class="glass-card reveal solution-detail"></section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>CodeCrack Elite</strong>
+      <p>Study the explanations that matter most, without losing context.</p>
+    </div>
+    <div class="footer-links">
+      <a href="questions.html">Browse All Questions</a>
+      <a href="quiz.html">Take a Quiz</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-core.js"></script>
+  <script src="assets/js/data-topics.js"></script>
+  <script src="assets/js/data-questions-foundation.js"></script>
+  <script src="assets/js/data-questions-dsa1.js"></script>
+  <script src="assets/js/data-questions-dsa2.js"></script>
+  <script src="assets/js/data-quiz.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/solutions-page.js"></script>
+</body>
+</html>
