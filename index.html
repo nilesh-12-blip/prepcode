@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeCrack Elite | Placement Prep Command Center</title>
+  <meta name="description" content="Premium frontend-only placement preparation platform for TCS NQT, service-based companies, and product-based interviews.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <div class="site-backdrop" aria-hidden="true">
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-glow"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="CodeCrack Elite home">
+      <span class="brand-mark">CE</span>
+      <span>
+        <strong>CodeCrack Elite</strong>
+        <small>Placement Prep Command Center</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav id="primaryNav" class="primary-nav">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="topics.html" data-nav="topics">Topics</a>
+      <a href="questions.html" data-nav="questions">Questions</a>
+      <a href="solutions.html" data-nav="solutions">Solutions</a>
+      <a href="quiz.html" data-nav="quiz">Quiz</a>
+    </nav>
+
+    <div class="topbar-actions">
+      <form class="site-search" data-global-search>
+        <input type="search" name="search" placeholder="Search arrays, TCS, DP..." aria-label="Search questions">
+        <button type="submit">Search</button>
+      </form>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-dot"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Frontend-only premium learning experience</span>
+        <h1>Crack service-based and product-based interviews with one visual roadmap.</h1>
+        <p>
+          Learn programming basics, pattern printing, mathematics, Java OOP, collections, core DSA,
+          company-focused interview prep, and MCQs in a single polished study platform built for TCS NQT,
+          Infosys, Wipro, Capgemini, Amazon-style screening, and beyond.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="topics.html">Explore Topics</a>
+          <a class="btn btn-secondary" href="questions.html">Practice Questions</a>
+        </div>
+        <div id="heroMetrics" class="hero-metrics"></div>
+      </div>
+
+      <div class="hero-panel reveal">
+        <div class="glass-card focus-panel">
+          <div class="panel-heading">
+            <span class="pill">Live roadmap</span>
+            <strong>Placement stack</strong>
+          </div>
+          <img src="assets/images/roadmap.svg" alt="Placement preparation roadmap" class="hero-visual">
+          <div id="heroTracks" class="mini-track-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell">
+      <div class="section-head reveal">
+        <span class="eyebrow">Roadmap</span>
+        <h2>Study in the order recruiters actually reward</h2>
+        <p>Start with logic fluency, graduate to coding patterns, and finish with company-specific execution.</p>
+      </div>
+      <div id="roadmapGrid" class="roadmap-grid"></div>
+    </section>
+
+    <section class="section-shell split-section">
+      <div class="section-head reveal">
+        <span class="eyebrow">Company Lens</span>
+        <h2>Built around real placement patterns</h2>
+        <p>Use this matrix to decide what to prioritize for service-based rounds versus high-bar product interviews.</p>
+      </div>
+      <div class="glass-card reveal">
+        <div class="table-wrap">
+          <table id="companyTable" class="data-table"></table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell">
+      <div class="section-head reveal">
+        <span class="eyebrow">Topic Map</span>
+        <h2>Every core subject in one place</h2>
+        <p>Definitions, syntax, tables, visuals, and interview-grade problems are wired together so revision stays fast.</p>
+      </div>
+      <div id="featuredTopics" class="feature-grid"></div>
+    </section>
+
+    <section class="section-shell">
+      <div class="section-head reveal">
+        <span class="eyebrow">Learning Design</span>
+        <h2>Visual-first and practice-heavy</h2>
+      </div>
+      <div class="insight-grid">
+        <article class="glass-card reveal">
+          <h3>Visual diagrams</h3>
+          <p>Tree traversals, graph traversals, collection internals, and recursion flow are shown with SVG visuals for faster retention.</p>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Interview notes</h3>
+          <p>Each important problem includes common mistakes, dry runs, time-space trade-offs, and tips you can say out loud in an interview.</p>
+        </article>
+        <article class="glass-card reveal">
+          <h3>Progress memory</h3>
+          <p>Bookmarks, mastery status, theme, and quiz history are stored in localStorage so the experience feels like a real study tool.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>CodeCrack Elite</strong>
+      <p>Premium frontend-only placement prep project built with HTML, CSS, and vanilla JavaScript.</p>
+    </div>
+    <div class="footer-links">
+      <a href="topics.html">Concepts</a>
+      <a href="questions.html">Practice</a>
+      <a href="quiz.html">Quiz</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-core.js"></script>
+  <script src="assets/js/data-topics.js"></script>
+  <script src="assets/js/data-questions-foundation.js"></script>
+  <script src="assets/js/data-questions-dsa1.js"></script>
+  <script src="assets/js/data-questions-dsa2.js"></script>
+  <script src="assets/js/data-quiz.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/home.js"></script>
+</body>
+</html>
